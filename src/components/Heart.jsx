@@ -1,0 +1,356 @@
+import React from "react";
+import "../styles/heart.css";
+
+const HeartRain = () => {
+  return (
+    <div className="heart-rain-wrapper">
+      <div
+        className="rain-heart"
+        style={{
+          "--l": "4%",
+          "--s": "14px",
+          "--d": "0s",
+          "--dur": "4.2s",
+          "--c": "#ff2a75",
+          "--sway": "30px",
+        }}
+      >
+        ❤️
+      </div>
+      <div
+        className="rain-heart"
+        style={{
+          "--l": "12%",
+          "--s": "26px",
+          "--d": "1.5s",
+          "--dur": "5.8s",
+          "--c": "#00e5ff",
+          "--sway": "-40px",
+        }}
+      >
+        💖
+      </div>
+      <div
+        className="rain-heart"
+        style={{
+          "--l": "19%",
+          "--s": "18px",
+          "--d": "0.8s",
+          "--dur": "3.9s",
+          "--c": "#b388ff",
+          "--sway": "50px",
+        }}
+      >
+        💕
+      </div>
+      <div
+        className="rain-heart"
+        style={{
+          "--l": "27%",
+          "--s": "22px",
+          "--d": "2.2s",
+          "--dur": "6.1s",
+          "--c": "#ff80ab",
+          "--sway": "-25px",
+        }}
+      >
+        💗
+      </div>
+      <div
+        className="rain-heart"
+        style={{
+          "--l": "35%",
+          "--s": "16px",
+          "--d": "0.3s",
+          "--dur": "4.7s",
+          "--c": "#ff5252",
+          "--sway": "35px",
+        }}
+      >
+        ㅤ♡ྀི
+      </div>
+      <div
+        className="rain-heart"
+        style={{
+          "--l": "35%",
+          "--s": "16px",
+          "--d": "0.3s",
+          "--dur": "4.7s",
+          "--c": "#ff5252",
+          "--sway": "35px",
+        }}
+      >
+        .✦ ݁˖
+      </div>
+      <div
+        className="rain-heart"
+        style={{
+          "--l": "19%",
+          "--s": "16px",
+          "--d": "0.8s",
+          "--dur": "3.9s",
+          "--c": "#b388ff",
+          "--sway": "50px",
+        }}
+      >
+        ˚˖𓍢ִ✧˚
+      </div>
+
+      {/* Mini ASCII Heart */}
+      <div
+        className="rain-heart"
+        style={{
+          "--l": "27%",
+          "--s": "12px",
+          "--d": "2.2s",
+          "--dur": "6.1s",
+          "--c": "#ff80ab",
+          "--sway": "-25px",
+        }}
+      >
+        c(:
+      </div>
+
+      {/* Star Burst Heart */}
+      <div
+        className="rain-heart"
+        style={{
+          "--l": "35%",
+          "--s": "16px",
+          "--d": "0.3s",
+          "--dur": "4.7s",
+          "--c": "#ff5252",
+          "--sway": "35px",
+        }}
+      >
+        .✦ ݁˖
+      </div>
+
+      {/* Pixel/Text Heart */}
+      <div
+        className="rain-heart"
+        style={{
+          "--l": "43%",
+          "--s": "18px",
+          "--d": "1.1s",
+          "--dur": "5.2s",
+          "--c": "#00e5ff",
+          "--sway": "-50px",
+        }}
+      >
+        ౨ৎ
+      </div>
+
+      {/* Wings ASCII Heart */}
+      <div
+        className="rain-heart"
+        style={{
+          "--l": "51%",
+          "--s": "15px",
+          "--d": "2.8s",
+          "--dur": "3.5s",
+          "--c": "#ff2a75",
+          "--sway": "20px",
+        }}
+      >
+        ʚɞ
+      </div>
+
+      {/* Minimal Unicode Heart */}
+      <div
+        className="rain-heart"
+        style={{
+          "--l": "59%",
+          "--s": "20px",
+          "--d": "0.5s",
+          "--dur": "6.5s",
+          "--c": "#b388ff",
+          "--sway": "-35px",
+        }}
+      >
+        ❥
+      </div>
+
+      {/* Floating Sparkle Pair */}
+      <div
+        className="rain-heart"
+        style={{
+          "--l": "67%",
+          "--s": "16px",
+          "--d": "1.9s",
+          "--dur": "4.1s",
+          "--c": "#ff80ab",
+          "--sway": "45px",
+        }}
+      >
+        ✧˚.
+      </div>
+
+      {/* Double Heart ASCII */}
+      <div
+        className="rain-heart"
+        style={{
+          "--l": "74%",
+          "--s": "14px",
+          "--d": "0.2s",
+          "--dur": "5.0s",
+          "--c": "#ff5252",
+          "--sway": "-30px",
+        }}
+      >
+        &lt;33
+      </div>
+
+      {/* Soft Bow ASCII */}
+      <div
+        className="rain-heart"
+        style={{
+          "--l": "82%",
+          "--s": "18px",
+          "--d": "1.7s",
+          "--dur": "4.4s",
+          "--c": "#00e5ff",
+          "--sway": "40px",
+        }}
+      >
+        🎀
+      </div>
+
+      {/* Ribbon Wave */}
+      <div
+        className="rain-heart"
+        style={{
+          "--l": "89%",
+          "--s": "15px",
+          "--d": "2.5s",
+          "--dur": "5.9s",
+          "--c": "#b388ff",
+          "--sway": "-45px",
+        }}
+      >
+        ~♡~
+      </div>
+
+      {/* Starry Heart */}
+      <div
+        className="rain-heart"
+        style={{
+          "--l": "96%",
+          "--s": "17px",
+          "--d": "0.9s",
+          "--dur": "3.8s",
+          "--c": "#ff2a75",
+          "--sway": "25px",
+        }}
+      >
+        *.ﾟ♡
+      </div>
+      <div
+        className="rain-heart"
+        style={{
+          "--l": "43%",
+          "--s": "28px",
+          "--d": "1.1s",
+          "--dur": "5.2s",
+          "--c": "#00e5ff",
+          "--sway": "-50px",
+        }}
+      >
+        🩵
+      </div>
+      <div
+        className="rain-heart"
+        style={{
+          "--l": "51%",
+          "--s": "15px",
+          "--d": "2.8s",
+          "--dur": "3.5s",
+          "--c": "#ff2a75",
+          "--sway": "20px",
+        }}
+      >
+        ❤️
+      </div>
+      <div
+        className="rain-heart"
+        style={{
+          "--l": "59%",
+          "--s": "24px",
+          "--d": "0.5s",
+          "--dur": "6.5s",
+          "--c": "#b388ff",
+          "--sway": "-35px",
+        }}
+      >
+        💖
+      </div>
+      <div
+        className="rain-heart"
+        style={{
+          "--l": "67%",
+          "--s": "20px",
+          "--d": "1.9s",
+          "--dur": "4.1s",
+          "--c": "#ff80ab",
+          "--sway": "45px",
+        }}
+      >
+        💕
+      </div>
+      <div
+        className="rain-heart"
+        style={{
+          "--l": "74%",
+          "--s": "17px",
+          "--d": "0.2s",
+          "--dur": "5.0s",
+          "--c": "#ff5252",
+          "--sway": "-30px",
+        }}
+      >
+        💗
+      </div>
+      <div
+        className="rain-heart"
+        style={{
+          "--l": "82%",
+          "--s": "25px",
+          "--d": "1.7s",
+          "--dur": "4.4s",
+          "--c": "#00e5ff",
+          "--sway": "40px",
+        }}
+      >
+        🩵
+      </div>
+      <div
+        className="rain-heart"
+        style={{
+          "--l": "89%",
+          "--s": "19px",
+          "--d": "2.5s",
+          "--dur": "5.9s",
+          "--c": "#b388ff",
+          "--sway": "-45px",
+        }}
+      >
+        💖
+      </div>
+      <div
+        className="rain-heart"
+        style={{
+          "--l": "96%",
+          "--s": "22px",
+          "--d": "0.9s",
+          "--dur": "3.8s",
+          "--c": "#ff2a75",
+          "--sway": "25px",
+        }}
+      >
+        ❤️
+      </div>
+    </div>
+  );
+};
+
+export default HeartRain;

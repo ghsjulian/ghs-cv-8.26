@@ -1,0 +1,170 @@
+[
+    {
+        "project_id": 109071001,
+        "project_name": "Elite Guard LLC",
+        "project_img": "../projects/elite-guard.jpg",
+        "project_url": "https://github.com/ghsjulian/elite-guard",
+        "project_date": "15 March 2026"
+    },
+    {
+        "project_id": 101001,
+        "project_name": "File Explorer",
+        "project_img": "../projects/file-explorer.jpg",
+        "project_url": "https://ghsjulian.github.io/file-explorer/",
+        "project_date": "18 April 2025"
+    },
+    {
+        "project_id": 10100786,
+        "project_name": "Passport Photo Tools",
+        "project_img": "../projects/passport-img.jpg",
+        "project_url": "https://passport-img-tools.onrender.com/",
+        "project_date": "18 April 2025"
+    },
+    {
+        "project_id": 101001,
+        "project_name": "File Manager Nodejs",
+        "project_img": "../projects/file-manager.jpg",
+        "project_url": "",
+        "project_date": "18 April 2025"
+    },
+    {
+        "project_id": 101001,
+        "project_name": "E Commerce Admin Dashboard",
+        "project_img": "../projects/admin-dashboard-mern-stack.jpg",
+        "project_url": "",
+        "project_date": "18 August 2021"
+    },
+    {
+        "project_id": 447,
+        "project_name": "Chat-AppV2.0.01",
+        "project_url": "https://chat-app-v2-0-0.onrender.com/",
+        "project_img": "../projects/chat-appv2.0.1.jpg",
+        "project_date": "15 May 2025"
+    },
+    {
+        "project_id": 101001,
+        "project_name": "Mini Facebook Social Media",
+        "project_img": "../projects/mini-facebook.jpg",
+        "project_url": "",
+        "project_date": "18 August 2021"
+    },
+    {
+        "project_id": 101001,
+        "project_name": "E Commerce Shopping Cart",
+        "project_img": "../projects/shopping_cart.jpg",
+        "project_url": "https://ghs.rf.gd",
+        "project_date": "18 August 2021"
+    },
+    {
+        "project_id": 101001,
+        "project_name": "E Commerce Landing Page",
+        "project_img": "../projects/landing_page.png",
+        "project_url": "https://ghs.rf.gd",
+        "project_date": "18 August 2021"
+    },
+    {
+        "project_id": 101001,
+        "project_name": "Elviano Digital Agency",
+        "project_img": "../projects/elviano.jpg",
+        "project_url": "https://ghs.rf.gd",
+        "project_date": "18 August 2021"
+    },
+    {
+        "project_id": 101001,
+        "project_name": "Back Digital Farm",
+        "project_img": "../projects/backdif.jpg",
+        "project_url": "https://ghs.rf.gd",
+        "project_date": "18 August 2021"
+    },
+    {
+        "project_id": 101001,
+        "project_name": "Personal Portfolio",
+        "project_img": "../projects/my_cv.jpg",
+        "project_url": "https://ghs.rf.gd",
+        "project_date": "18 August 2021"
+    },
+    {
+        "project_id": 101001,
+        "project_name": "Social Media Website",
+        "project_img": "../projects/social_media.jpg",
+        "project_url": "https://ghs.rf.gd",
+        "project_date": "18 August 2021"
+    },
+    {
+        "project_id": 101002,
+        "project_name": "Tea Selling E-Commerce Website",
+        "project_img": "../projects/relax_tea.jpg",
+        "project_url": "https://ghsjulian.github.io/Relax-Tea/",
+        "project_date": "03 January 2022"
+    },
+    {
+        "project_id": 101003,
+        "project_name": "Clothes Store E Commerce Website",
+        "project_img": "../projects/clothes_store.jpg",
+        "project_url": "https://ghsjulian.github.io/WEB-STORE/",
+        "project_date": "15 July 2022"
+    },
+    {
+        "project_id": 101004,
+        "project_name": "Awesome Login And Registration",
+        "project_img": "../projects/awesome_desgin.jpg",
+        "project_url": "https://ghsjulian.github.io/awesome-desgin/",
+        "project_date": "18 March 2022"
+    },
+    {
+        "project_id": 101005,
+        "project_name": "Office Management Company Website",
+        "project_img": "../projects/office_management.jpg",
+        "project_url": "https://ghsjulian.github.io/office-management/",
+        "project_date": "09 September 2022"
+    },
+    {
+        "project_id": 101006,
+        "project_name": "Blogs Content Writing Website",
+        "project_img": "../projects/blog_website.jpg",
+        "project_url": "https://ghsjulian.github.io/__BLOG__/",
+        "project_date": "23 June 2022"
+    },
+    {
+        "project_id": 101007,
+        "project_name": "Love Calculation Entertainment Program",
+        "project_img": "../projects/love_calculation.jpg",
+        "project_url": "https://ghsjulian.github.io/Love-Calculation/",
+        "project_date": "23 October 2023"
+    },
+    {
+        "project_id": 101008,
+        "project_name": "Binary Converter Educational Program",
+        "project_img": "../projects/S1.jpg",
+        "project_url": "https://ghsjulian.github.io/Binary-Converter/",
+        "project_date": "26 August 2023"
+    },
+    {
+        "project_id": 101009,
+        "project_name": "Siri Voice Assistant Program",
+        "project_img": "../projects/siri_voice_assistant.jpg",
+        "project_url": "https://ghsjulian.github.io/SIRI_1.01_Vesion/",
+        "project_date": "13 July 2022"
+    },
+    {
+        "project_id": 1010010,
+        "project_name": "To-Do List App Using Javascript",
+        "project_img": "../projects/todo_list.jpg",
+        "project_url": "https://ghsjulian.github.io/To-Do-List/",
+        "project_date": "19 March 2023"
+    },
+    {
+        "project_id": 1010011,
+        "project_name": "My Awesome Portfolio",
+        "project_img": "../projects/ghs_portfolio.jpg",
+        "project_url": "https://ghsjulian.github.io/Official-Portfolio/",
+        "project_date": "07 July 2023"
+    },
+    {
+        "project_id": 1010012,
+        "project_name": "CMS Admin Dashboard Template",
+        "project_img": "../projects/admin_cms.jpg",
+        "project_url": "https://ghsjulian.github.io/cms-admin-dashboard/",
+        "project_date": "24 July 2023"
+    }
+]

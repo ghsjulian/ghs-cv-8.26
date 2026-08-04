@@ -1,0 +1,29 @@
+# Allow all crawlers access to the entire site
+Disallow:
+
+# Block specific directories
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /backup/
+
+# Allow Googlebot to access the entire site
+User -agent: Googlebot
+Disallow:
+
+# Block specific file types from being indexed
+User -agent: *
+Disallow: /*.pdf$
+Disallow: /*.doc$
+Disallow: /*.xls$
+
+# Allow specific crawlers to access certain directories
+User -agent: Bingbot
+Allow: /public/
+Disallow: /private/
+
+# Sitemap location
+Sitemap: https://ghsresume.netlify.app/sitemap.xml
+
+# Crawl delay for specific bots
+User -agent: BadBot
+Crawl-delay: 10
