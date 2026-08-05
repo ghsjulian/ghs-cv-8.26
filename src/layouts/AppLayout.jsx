@@ -35,6 +35,9 @@ const AppLayout = () => {
   }, []);
 
   useEffect(() => {
+    if (!layoutRef.current) return;
+
+    layoutRef.current.scrollTo({ top: 0, behavior: "smooth" });
     const timer = setTimeout(() => {
       AOS.refresh();
     }, 150);

@@ -7,7 +7,7 @@ const About = () => {
       <section className="about-hero">
         <div className="about-container">
           <div className="about-hero-grid">
-            <div className="about-hero-content">
+            <div data-aos="zoom-in-up" className="about-hero-content">
               <span className="badge">About Me</span>
               <h1>
                 Hi, I'm <span className="highlight">Ghs Julian</span>
@@ -26,7 +26,7 @@ const About = () => {
                 Let's Work Together
               </a>
             </div>
-            <div className="about-hero-image-wrapper">
+            <div data-aos="zoom-in-up" className="about-hero-image-wrapper">
               <div className="about-image-frame">
                 <img src="/images/ghs-hero-2.png" alt="Ghs Julian Profile" />
               </div>
@@ -35,10 +35,10 @@ const About = () => {
         </div>
         <div className="about-full-width-section">
           <div className="about-full-width-inner">
-            <h2 className="about-full-width-title">
+            <h2 data-aos="zoom-in-up" className="about-full-width-title">
               Driven by <span>Passion & Experience</span>
             </h2>
-            <p className="about-section-desc">
+            <p data-aos="zoom-in-up" className="about-section-desc">
               Over the years, I have continuously developed dynamic web
               platforms and systems designed to deliver exceptional efficiency
               and user engagement.

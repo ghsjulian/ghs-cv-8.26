@@ -1,19 +1,31 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { ReactTyped } from "react-typed";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { LuDownload } from "react-icons/lu";
 
 const Hero = () => {
+  const navigate = useNavigate();
+
+  const downloadCV = () => {
+    const pdfUrl = "/ghs-cv.pdf";
+    const link = document.createElement("a");
+    link.href = pdfUrl;
+    link.setAttribute("download", "ghs-julian-cv.pdf");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <>
       <div className="hero-container">
         <div className="hero-left">
-          <span className="badge">
+          <span data-aos="zoom-in-up" className="badge">
             <span className="badge-icon"></span>
             Available for new opportunities
           </span>
-          <h1 className="hero-title">
+          <h1 data-aos="zoom-in-up" className="hero-title">
             <span>I'm A </span>
             <ReactTyped
               strings={[
@@ -33,7 +45,7 @@ const Hero = () => {
               loop // Set to loop through the strings continuously
             />
           </h1>
-          <p className="hero-desc">
+          <p data-aos="zoom-in-up" className="hero-desc">
             Full-Stack Web Developer based in Sylhet, Bangladesh, specializing
             in scalable web applications, real-time engines, and e-commerce
             platforms using the MERN stack, PHP, and Python. With{" "}
@@ -43,16 +55,19 @@ const Hero = () => {
             I transform complex technical requirements into high-performance,
             secure digital products.
           </p>
-          <div className="cta-group">
-            <button className="btn btn-primary">
+          <div data-aos="zoom-in-up" className="cta-group">
+            <button
+              onClick={(e) => navigate("/projects")}
+              className="btn btn-primary"
+            >
               Explore My Work <FaArrowRightLong />
             </button>
-            <button className="btn btn-secondary">
+            <button onClick={downloadCV} className="btn btn-secondary">
               Download CV <LuDownload />
             </button>
           </div>
         </div>
-        <div className="hero-right">
+        <div data-aos="zoom-in-up" className="hero-right">
           <div className="hero-image-wrapper">
             <img src="/images/ghs-logo-hero.png" alt="Ghs Julian" />
           </div>

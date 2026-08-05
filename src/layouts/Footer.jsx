@@ -7,7 +7,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="app-footer">
+    <footer data-aos="zoom-in-up" className="app-footer">
       <div className="status-indicator">
         <span className="pulse-dot"></span>
         <span>Find Me On </span>

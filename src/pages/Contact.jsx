@@ -5,8 +5,10 @@ const Contact = () => {
   return (
     <section>
       <div className="contact-container">
-        <div className="contact-header">
-          <h1>Let’s Create Together</h1>
+        <div data-aos="zoom-in-up" className="contact-header">
+          <h1>
+            Let’s Create <span>Together</span>
+          </h1>
           <p>
             Great digital experiences start with a simple conversation. Whether
             you need a full-stack solution from scratch or want to overhaul an
@@ -18,7 +20,7 @@ const Contact = () => {
 
         <div className="contact-content">
           <div className="contact-info">
-            <div className="info-intro">
+            <div data-aos="zoom-in-up" className="info-intro">
               <h2>Let's talk about everything!</h2>
               <p>
                 Reach out directly through the form below or connect across my
@@ -29,7 +31,7 @@ const Contact = () => {
               </p>
             </div>
 
-            <div className="info-details">
+            <div data-aos="zoom-in-up" className="info-details">
               <div className="info-item">
                 <div className="icon-box">
                   <i className="fa-solid fa-envelope"></i>
@@ -62,7 +64,7 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-            <div className="contact-social-links">
+            <div data-aos="zoom-in-up" className="contact-social-links">
               <a href="#" className="contact-social-btn" aria-label="GitHub">
                 <i className="fa-brands fa-github"></i>
               </a>
@@ -77,7 +79,7 @@ const Contact = () => {
               </a>
             </div>
           </div>
-          <form className="contact-form">
+          <form data-aos="zoom-in-up" className="contact-form">
             <div className="form-group">
               <label for="name">Your Name</label>
               <input

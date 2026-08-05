@@ -1,13 +1,19 @@
 import React, { useEffect, useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { IoMdMenu } from "react-icons/io";
 import { HiReply } from "react-icons/hi";
 
 const Header = () => {
   const location = useLocation();
+  const navigate = useNavigate();
   const [path, setPath] = useState("");
-  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  const goContact = () => {
+    navigate(
+      "https://wa.me/8801302661227?text=Hi%20there,%20I%20reviewed%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20custom%20web%20development%20project.%20Are%20you%20currently%20available%20for%20freelance%20work%3F",
+    );
+  };
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
@@ -30,6 +36,13 @@ const Header = () => {
         </Link>
       </div>
       <nav className={isMenuOpen ? "active-menu" : ""}>
+        <Link
+          onClick={toggleMenu}
+          className={path === "/" ? "active" : ""}
+          to="/"
+        >
+          Home
+        </Link>
         <Link
           onClick={toggleMenu}
           className={path === "/about" ? "active" : ""}
@@ -65,7 +78,7 @@ const Header = () => {
         >
           Projects
         </Link>
-        <button className="btn btn-primary">
+        <button onClick={goContact} className="btn btn-primary">
           Hire Me <HiReply />
         </button>
       </nav>
