@@ -237,6 +237,10 @@
   .about-full-width-inner {
     padding: 0 15px;
   }
+  .about-hero-content {
+    flex: auto;
+    padding: 0 0;
+  }
   .about-full-width-section {
     padding: 1rem 0;
   }
@@ -251,7 +255,7 @@
     flex-direction: column-reverse;
   }
   .about-image-frame {
-    max-width: 280px;
+    max-width: 100%;
     height: auto;
   }
 }
