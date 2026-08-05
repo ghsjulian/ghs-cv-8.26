@@ -651,7 +651,7 @@ const Skills = () => {
               />
             </div>
             <span className="lang-name">API Design</span>
-            <span className="lang-badge">REST & GraphQL</span>
+            <span className="lang-badge">REST & API</span>
           </div>
 
           {/* DevOps & CI/CD */}
