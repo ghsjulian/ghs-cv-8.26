@@ -1,6 +1,7 @@
 # 🚀 Ghs Julian - Developer Portfolio & Showcase
 
-<img src="./demo.jpg" alt="Ghs Julian Portfolio Banner" />
+<img src="./demo-1.png" alt="Ghs Julian Portfolio Banner" /><br/><br/>
+<img src="./demo-2.png" alt="Ghs Julian Portfolio Banner" />
 
 ---
 
@@ -16,15 +17,15 @@ Built using modern web standards, modular UI architecture, and production-ready 
 
 ### ℹ️ Repository Information
 
-[![GitHub top language](https://img.shields.io/github/languages/top/ghsjulian/ghsjulian-portfolio)](https://github.com/ghsjulian)
+[![GitHub top language](https://img.shields.io/github/languages/top/ghsjulian/ghs-cv-8.26)](https://github.com/ghsjulian)
 
-[![GitHub repo size](https://img.shields.io/github/repo-size/ghsjulian/ghsjulian-portfolio)](https://github.com/ghsjulian)
+[![GitHub repo size](https://img.shields.io/github/repo-size/ghsjulian/ghs-cv-8.26)](https://github.com/ghsjulian)
 
-[![GitHub code size](https://img.shields.io/github/languages/code-size/ghsjulian/ghsjulian-portfolio)](https://github.com/ghsjulian)
+[![GitHub code size](https://img.shields.io/github/languages/code-size/ghsjulian/ghs-cv-8.26)](https://github.com/ghsjulian)
 
-[![GitHub last commit](https://img.shields.io/github/last-commit/ghsjulian/ghsjulian-portfolio)](https://github.com/ghsjulian)
+[![GitHub last commit](https://img.shields.io/github/last-commit/ghsjulian/ghs-cv-8.26)](https://github.com/ghsjulian)
 
-[![GitHub issues](https://img.shields.io/github/issues/ghsjulian/ghsjulian-portfolio)](https://github.com/ghsjulian)
+[![GitHub issues](https://img.shields.io/github/issues/ghsjulian/ghs-cv-8.26)](https://github.com/ghsjulian)
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
@@ -144,7 +145,7 @@ Development Environment
 ### 📂 Project Structure
 
 ```bash
-ghsjulian-portfolio/
+ghs-cv-8.26/
 
 ├── public/
 │   ├── favicon.svg

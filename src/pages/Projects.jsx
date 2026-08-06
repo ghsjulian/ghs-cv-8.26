@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../styles/projects.css";
 import projectsData from "../data/projects";
+import SEO from "../components/SEO";
 
 const Projects = () => {
   const [filter, setFilter] = useState("all");
@@ -12,6 +13,11 @@ const Projects = () => {
 
   return (
     <section className="projects-section" id="projects">
+      <SEO
+        title="Projects"
+        description="Browse through over 130+ projects built by Ghs Julian, ranging from e-commerce platforms to real-time applications."
+        keywords="React projects, MERN portfolio, GitHub projects, Node.js applications"
+      />
       <div className="projects-container">
         {/* SEO Header */}
         <div className="projects-header" data-aos="fade-up">

@@ -1,10 +1,16 @@
 import React from "react";
 import "../styles/about.css";
+import SEO from "../components/SEO";
 
 const About = () => {
   return (
     <>
       <section className="about-hero">
+        <SEO
+          title="About Me"
+          description="Learn more about Ghs Julian, a Full Stack Web Developer proficient in MERN stack, PHP, Python, and modern software development."
+          keywords="About Ghs Julian, Full Stack Developer background, MERN Stack Developer, Software Engineer profile"
+        />
         <div className="about-container">
           <div className="about-hero-grid">
             <div data-aos="zoom-in-up" className="about-hero-content">

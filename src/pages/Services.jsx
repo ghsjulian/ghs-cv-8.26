@@ -1,10 +1,16 @@
 import React from "react";
 import "../styles/services.css";
 import servicesData from "../data/services";
+import SEO from "../components/SEO";
 
 const Services = () => {
   return (
     <section className="services-section">
+      <SEO
+        title="Services"
+        description="Explore web development and design services by Ghs Julian, including full-stack MERN web apps, API integration, and custom frontend UIs."
+        keywords="Web Development Services, MERN Stack Development, React Frontend, Node.js Backend API, Full Stack Solutions"
+      />
       <div className="services-container">
         {/* Section Header */}
         <div className="services-header" data-aos="fade-up">

@@ -1,9 +1,15 @@
 import React from "react";
 import "../styles/contact.css";
+import SEO from "../components/SEO";
 
 const Contact = () => {
   return (
     <section>
+      <SEO
+        title="Contact"
+        description="Get in touch with Ghs Julian for web development projects, freelance collaborations, or full-stack software development consulting."
+        keywords="Contact Ghs Julian, Hire Full Stack Developer, Freelance MERN Developer, Web Developer Contact"
+      />
       <div className="contact-container">
         <div data-aos="zoom-in-up" className="contact-header">
           <h1>
@@ -56,6 +62,21 @@ const Contact = () => {
 
               <div className="info-item">
                 <div className="icon-box">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div className="info-text">
+                  <h4>WhatsApp</h4>
+                  <a
+                    href="https://wa.me/8801302661227?text=Hi%20there,%20I%20reviewed%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20custom%20web%20development%20project.%20Are%20you%20currently%20available%20for%20freelance%20work%3F"
+                    target="_blank"
+                  >
+                    +8801302661227
+                  </a>
+                </div>
+              </div>
+
+              <div className="info-item">
+                <div className="icon-box">
                   <i className="fa-solid fa-location-dot"></i>
                 </div>
                 <div className="info-text">
@@ -65,16 +86,36 @@ const Contact = () => {
               </div>
             </div>
             <div data-aos="zoom-in-up" className="contact-social-links">
-              <a href="#" className="contact-social-btn" aria-label="GitHub">
+              <a
+                href="https://github.com/ghsjulian"
+                className="contact-social-btn"
+                aria-label="GitHub"
+                target="_blank"
+              >
                 <i className="fa-brands fa-github"></i>
               </a>
-              <a href="#" className="contact-social-btn" aria-label="LinkedIn">
+              <a
+                href="https://linkedin.com/in/gobindo.bhor"
+                target="_blank"
+                className="contact-social-btn"
+                aria-label="LinkedIn"
+              >
                 <i className="fa-brands fa-linkedin-in"></i>
               </a>
-              <a href="#" className="contact-social-btn" aria-label="Twitter">
+              <a
+                href="https://www.instagram.com/ghs.julian.85"
+                target="_blank"
+                className="contact-social-btn"
+                aria-label="Twitter"
+              >
                 <i className="fa-brands fa-instagram"></i>
               </a>
-              <a href="#" className="contact-social-btn" aria-label="Facebook">
+              <a
+                href="https://web.facebook.com/ghs.julian.85"
+                target="_blank"
+                className="contact-social-btn"
+                aria-label="Facebook"
+              >
                 <i className="fa-brands fa-facebook-f"></i>
               </a>
             </div>

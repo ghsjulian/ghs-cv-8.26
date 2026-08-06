@@ -1,29 +1,43 @@
-# Allow all crawlers access to the entire site
-Disallow:
+# robots.txt for https://ghsresume.netlify.app
+# Allow all legitimate search engine and AI crawlers full access
 
-# Block specific directories
-Disallow: /private/
-Disallow: /tmp/
-Disallow: /backup/
+User-agent: *
+Allow: /
 
-# Allow Googlebot to access the entire site
-User -agent: Googlebot
-Disallow:
+# Explicitly welcome major search engine bots
+User-agent: Googlebot
+Allow: /
 
-# Block specific file types from being indexed
-User -agent: *
-Disallow: /*.pdf$
-Disallow: /*.doc$
-Disallow: /*.xls$
+User-agent: Bingbot
+Allow: /
 
-# Allow specific crawlers to access certain directories
-User -agent: Bingbot
-Allow: /public/
-Disallow: /private/
+User-agent: DuckDuckBot
+Allow: /
 
-# Sitemap location
+User-agent: Slurp
+Allow: /
+
+# Welcome AI answer-engine crawlers (helps you show up in AI search/chat answers)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Point crawlers to your sitemap
 Sitemap: https://ghsresume.netlify.app/sitemap.xml
 
-# Crawl delay for specific bots
-User -agent: BadBot
-Crawl-delay: 10
+# Host directive (some crawlers use this to confirm canonical domain)
+Host: https://ghsresume.netlify.app
