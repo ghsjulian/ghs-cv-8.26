@@ -7,8 +7,8 @@ const servicesData = [
       "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=600&q=80",
     description:
       "Custom scalable web applications built with MERN (MongoDB, Express, React, Node.js). High performance, secure authentication, and robust REST APIs.",
-    deliveryTime: "5 - 10 Days",
-    price: "$299",
+    deliveryTime: "10 - 15 Days",
+    price: "$599",
     priceSuffix: "starts at",
     tools: [
       {
@@ -44,7 +44,7 @@ const servicesData = [
     description:
       "Secure backend services, database schema design, microservices, and high-throughput RESTful/GraphQL API development.",
     deliveryTime: "3 - 7 Days",
-    price: "$199",
+    price: "$299",
     priceSuffix: "starts at",
     tools: [
       {
@@ -80,7 +80,7 @@ const servicesData = [
     description:
       "Converting Figma, XD, or PSD files into lightning-fast, pixel-perfect modern responsive web applications with dynamic animations.",
     deliveryTime: "2 - 4 Days",
-    price: "$149",
+    price: "$259",
     priceSuffix: "starts at",
     tools: [
       {
@@ -116,7 +116,7 @@ const servicesData = [
     description:
       "Complete VPS server configuration, Linux shell automation, Nginx reverse proxy configuration, SSL certificates, and CI/CD pipelines.",
     deliveryTime: "1 - 3 Days",
-    price: "$120",
+    price: "$189",
     priceSuffix: "fixed package",
     tools: [
       {
@@ -151,8 +151,8 @@ const servicesData = [
       "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=600&q=80",
     description:
       "Native-like mobile applications built for Android & iOS using React Native / Cordova. Smooth performant UI, offline functionality, and push notifications.",
-    deliveryTime: "7 - 14 Days",
-    price: "$349",
+    deliveryTime: "10 - 15 Days",
+    price: "$449",
     priceSuffix: "starts at",
     tools: [
       {
@@ -168,14 +168,14 @@ const servicesData = [
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg",
       },
       {
-        name: "Firebase",
-        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
+        name: "Nodejs",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
       },
     ],
     features: [
       "Single Codebase for Android & iOS",
       "Push Notifications & Offline Support",
-      "REST / GraphQL API Backend Sync",
+      "REST / API Backend Sync",
       "App Store & Play Store Deployment",
     ],
   },
@@ -188,7 +188,7 @@ const servicesData = [
     description:
       "Complete online shopping solutions featuring custom product catalogs, inventory management, secure checkout, and local/global payment gateways.",
     deliveryTime: "5 - 10 Days",
-    price: "$279",
+    price: "$289",
     priceSuffix: "starts at",
     tools: [
       {

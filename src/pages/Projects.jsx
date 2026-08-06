@@ -128,7 +128,9 @@ const Projects = () => {
                   </a>
                 </h3>
 
-                <p className="project-desc">{project.description}</p>
+                <p className="project-desc">
+                  {project.description.slice(0, 145)}
+                </p>
 
                 {/* Tech Stack Pills */}
                 <div className="tech-stack-container">

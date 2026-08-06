@@ -1,19 +1,57 @@
 const projectsData = [
   {
-    id: 1,
+    id: 0,
     category: "fullstack",
-    title: "Aura's Beauty Studio Platform",
-    subtitle: "Full-Stack Booking & Management Web App",
-    image:
-      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=700&q=80",
+    title: "Allbizz Music Studio",
+    subtitle: "Full-Stack Social Music App",
+    image: "/projects/music-studio.jpg",
     description:
-      "A comprehensive booking platform featuring dynamic service scheduling, customer dashboards, automated invoice generation, and full admin control.",
-    duration: "3 Weeks",
-    tools: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
-    liveDemo: "https://example.com/aura-studio",
-    github: "https://github.com/ghsjulian/aura-beauty-studio",
+      "ALL BIZZ Entertainment - is a modern full-stack music platform that enables artists, creators, and listeners to connect through music. Built using modern web technologies, the application follows scalable architecture and production-ready development practices suitable for commercial deployment.",
+    duration: "2.5 Weeks",
+    tools: [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "HTML5",
+      "CSS3",
+      "Stripe",
+      "VPS",
+    ],
+    liveDemo: "https://allbizzent.com",
+    github: "https://github.com/ghsjulian/music-studio",
     featured: true,
   },
+  {
+    id: 1,
+    category: "Frontend UX/UI",
+    title: "Aura's Beauty Studio Platform",
+    subtitle: "Beauty Studio Booking & Management",
+    image: "/projects/aura-beauty.jpg",
+    description:
+      "Aura Beauty is a modern web-based application designed for a beauty and wellness lounge or e-commerce platform. It provides a sleek, user-friendly interface showcasing signature services such as hair care, bridal/party makeup, spa treatments, and personalized beauty solutions, emphasizing a luxurious and relaxing experience.",
+    duration: "1 Weeks",
+    tools: ["React", "Node.js", "Express", "MongoDB", "CSS3"],
+    liveDemo: "https://github.com/ghsjulian/aura-beauty.git",
+    github: "https://github.com/ghsjulian/aura-beauty",
+    featured: true,
+  },
+  {
+    id: 1,
+    category: "Static Frontend",
+    title: "Shekinah Global Consult",
+    subtitle: "Static Booking & Management Web App",
+    image: "/projects/sakhina.png",
+    description:
+      "Shekinah Global Consult, we believe that digital transformation is not just about technology, but about creating a better experience for your customers. Our team of experts will work with ",
+    duration: "3 Weeks",
+    tools: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
+    liveDemo: "https://shakhina-consultation-ghs.vercel.app",
+    github: "https://github.com/ghsjulian/shakhina-consultation",
+    featured: true,
+  },
+  // I have added three objects and those are perfect !
+
   {
     id: 2,
     category: "frontend",

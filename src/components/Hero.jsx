@@ -69,7 +69,7 @@ const Hero = () => {
         </div>
         <div data-aos="zoom-in-up" className="hero-right">
           <div className="hero-image-wrapper">
-            <img src="/images/ghs-logo-hero.png" alt="Ghs Julian" />
+            <img src="/images/ghs.jpg" alt="Ghs Julian" />
           </div>
         </div>
       </div>
