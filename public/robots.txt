@@ -39,5 +39,3 @@ Allow: /
 # Point crawlers to your sitemap
 Sitemap: https://ghsresume.netlify.app/sitemap.xml
 
-# Host directive (some crawlers use this to confirm canonical domain)
-Host: https://ghsresume.netlify.app
