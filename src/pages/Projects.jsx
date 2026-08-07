@@ -83,13 +83,13 @@ const Projects = () => {
   return (
     <section className="projects-section" id="projects">
       <SEO
-        title="Projects"
-        description="Browse through over 130+ projects built by Ghs Julian."
+        title="Latest Previous Projects"
+        description="Browse through over 150+ projects built by Ghs Julian."
         keywords="React projects, MERN portfolio, GitHub projects, Node.js applications"
       />
       <div className="projects-container">
         {/* Header */}
-        <div className="projects-header">
+        <div data-aos="zoom-in-up" className="projects-header">
           <span className="badge-pill">
             <i className="fa-solid fa-code-branch"></i> Selected Work & Case
             Studies
@@ -104,7 +104,7 @@ const Projects = () => {
         </div>
 
         {/* Filter Tabs */}
-        <div className="filter-wrapper">
+        <div data-aos="zoom-in-up" className="filter-wrapper">
           <button
             className={`filter-btn ${filter === "all" ? "active" : ""}`}
             onClick={() => handleFilterChange("all")}
@@ -147,7 +147,11 @@ const Projects = () => {
                 : `project-${startIndex}-${idx}`;
 
               return (
-                <article key={uniqueKey} className="project-card">
+                <article
+                  data-aos="zoom-in-up"
+                  key={uniqueKey}
+                  className="project-card"
+                >
                   <div className="card-image-wrapper">
                     <img
                       src={project.image}

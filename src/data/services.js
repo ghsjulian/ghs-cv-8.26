@@ -3,8 +3,7 @@ const servicesData = [
     id: 1,
     title: "Full-Stack Web Application",
     badge: "Most Popular",
-    image:
-      "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=600&q=80",
+    image: "/projects/full-stack.jpg",
     description:
       "Custom scalable web applications built with MERN (MongoDB, Express, React, Node.js). High performance, secure authentication, and robust REST APIs.",
     deliveryTime: "10 - 15 Days",
@@ -39,8 +38,7 @@ const servicesData = [
     id: 2,
     title: "Backend API & Database Architecture",
     badge: "Core Logic",
-    image:
-      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=600&q=80",
+    image: "/projects/backend-api.jpg",
     description:
       "Secure backend services, database schema design, microservices, and high-throughput RESTful/GraphQL API development.",
     deliveryTime: "3 - 7 Days",
@@ -75,8 +73,7 @@ const servicesData = [
     id: 3,
     title: "UI/UX to Responsive Frontend",
     badge: "Pixel Perfect",
-    image:
-      "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=600&q=80",
+    image: "projects/ux-uid.jpg",
     description:
       "Converting Figma, XD, or PSD files into lightning-fast, pixel-perfect modern responsive web applications with dynamic animations.",
     deliveryTime: "2 - 4 Days",
@@ -111,7 +108,7 @@ const servicesData = [
     id: 4,
     title: "VPS Setup, Nginx & DevOps",
     badge: "Deployment",
-    image: "/projects/devops.jpg",
+    image: "/projects/devops-dev.jpg",
     description:
       "Complete VPS server configuration, Linux shell automation, Nginx reverse proxy configuration, SSL certificates, and CI/CD pipelines.",
     deliveryTime: "1 - 3 Days",
@@ -180,7 +177,7 @@ const servicesData = [
   },
   {
     id: 6,
-    title: "E-Commerce & Payment Integration",
+    title: "Business Payment Integration",
     badge: "High Conversion",
     image:
       "https://www.bicakhukuk.com/wp-content/uploads/2025/07/Electronic-Payment-Law-Turkey-1536x960.png",

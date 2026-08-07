@@ -7,7 +7,7 @@ const Services = () => {
   return (
     <section className="services-section">
       <SEO
-        title="Services"
+        title="Premium Services"
         description="Explore web development and design services by Ghs Julian, including full-stack MERN web apps, API integration, and custom frontend UIs."
         keywords="Web Development Services, MERN Stack Development, React Frontend, Node.js Backend API, Full Stack Solutions"
       />
@@ -83,7 +83,11 @@ const Services = () => {
                 </div>
 
                 {/* Order Button */}
-                <a href="#contact" className="order-btn">
+                <a
+                  href="https://wa.me/8801302661227?text=Hi%20there,%20I%20reviewed%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20custom%20web%20development%20project.%20Are%20you%20currently%20available%20for%20freelance%20work%3F"
+                  target="_blank"
+                  className="order-btn"
+                >
                   <span>Order Now</span>
                   <i className="fa-solid fa-arrow-right"></i>
                 </a>
@@ -101,7 +105,11 @@ const Services = () => {
               Let's discuss your custom requirements directly.
             </p>
           </div>
-          <a href="#contact" className="custom-btn">
+          <a
+            href="https://wa.me/8801302661227?text=Hi%20there,%20I%20reviewed%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20custom%20web%20development%20project.%20Are%20you%20currently%20available%20for%20freelance%20work%3F"
+            target="_blank"
+            className="custom-btn"
+          >
             <i className="fa-solid fa-comments"></i> Get Custom Quote
           </a>
         </div>
