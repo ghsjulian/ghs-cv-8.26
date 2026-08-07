@@ -36,7 +36,7 @@ const Services = () => {
             >
               {/* Card Banner Image */}
               <div className="card-banner">
-                <img src={service.image} alt={service.title} />
+                <img loading="lazy" src={service.image} alt={service.title} />
                 <span className="featured-badge">{service.badge}</span>
               </div>
 
@@ -76,7 +76,7 @@ const Services = () => {
                   <div className="tools-icons">
                     {service.tools.map((tool, idx) => (
                       <div className="tool-icon" key={idx} title={tool.name}>
-                        <img src={tool.logo} alt={tool.name} />
+                        <img loading="lazy" src={tool.logo} alt={tool.name} />
                       </div>
                     ))}
                   </div>

@@ -38,7 +38,11 @@ const About = () => {
             </div>
             <div data-aos="zoom-in-up" className="about-hero-image-wrapper">
               <div className="about-image-frame">
-                <img src="/images/ghs-hero-2.png" alt="Ghs Julian Profile" />
+                <img
+                  loading="lazy"
+                  src="/images/ghs-hero-2.png"
+                  alt="Ghs Julian Profile"
+                />
               </div>
             </div>
           </div>

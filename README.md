@@ -1,7 +1,7 @@
 # 🚀 Ghs Julian - Developer Portfolio & Showcase
 
-<img src="./demo-1.png" alt="Ghs Julian Portfolio Banner" /><br/><br/>
-<img src="./demo-2.png" alt="Ghs Julian Portfolio Banner" />
+<img loading="lazy" src="./demo-1.png" alt="Ghs Julian Portfolio Banner" /><br/><br/>
+<img loading="lazy" src="./demo-2.png" alt="Ghs Julian Portfolio Banner" />
 
 ---
 

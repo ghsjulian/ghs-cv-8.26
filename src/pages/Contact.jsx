@@ -1,8 +1,31 @@
-import React from "react";
+import React, { useState, useRef } from "react";
 import "../styles/contact.css";
 import SEO from "../components/SEO";
+import Popup from "../components/Popup";
 
 const Contact = () => {
+  const [type, setType] = useState(false);
+  const [isSubmited, setSubmit] = useState(false);
+  const [isLoading, setLoading] = useState(false);
+
+  const onSubmit = async (event) => {
+    setLoading(true);
+    event.preventDefault();
+    const formData = new FormData(event.target);
+    formData.append("access_key", "31b9f4b2-cc34-4e32-9c14-4faa261cdd49");
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    });
+    setLoading(false);
+    const data = await response.json();
+    setType(data.success ? true : false);
+    setSubmit(true);
+    setTimeout(() => {
+      setType(false);
+      setSubmit(false);
+    }, 4000);
+  };
   return (
     <section>
       <SEO
@@ -62,7 +85,7 @@ const Contact = () => {
 
               <div className="info-item">
                 <div className="icon-box">
-                  <i class="fa-brands fa-whatsapp"></i>
+                  <i className="fa-brands fa-whatsapp"></i>
                 </div>
                 <div className="info-text">
                   <h4>WhatsApp</h4>
@@ -120,9 +143,13 @@ const Contact = () => {
               </a>
             </div>
           </div>
-          <form data-aos="zoom-in-up" className="contact-form">
+          <form
+            data-aos="zoom-in-up"
+            className="contact-form"
+            onSubmit={onSubmit}
+          >
             <div className="form-group">
-              <label for="name">Your Name</label>
+              <label htmlFor="name">Your Name</label>
               <input
                 type="text"
                 id="name"
@@ -134,7 +161,7 @@ const Contact = () => {
             </div>
 
             <div className="form-group">
-              <label for="email">Your Email</label>
+              <label htmlFor="email">Your Email</label>
               <input
                 type="email"
                 id="email"
@@ -146,7 +173,7 @@ const Contact = () => {
             </div>
 
             <div className="form-group">
-              <label for="subject">Subject</label>
+              <label htmlFor="subject">Subject</label>
               <input
                 type="text"
                 id="subject"
@@ -158,7 +185,7 @@ const Contact = () => {
             </div>
 
             <div className="form-group">
-              <label for="message">Write Message</label>
+              <label htmlFor="message">Write Message</label>
               <textarea
                 id="message"
                 name="message"
@@ -167,9 +194,14 @@ const Contact = () => {
                 required
               ></textarea>
             </div>
-
-            <button type="submit" className="contact-submit-btn">
-              Send Message <i className="fa-solid fa-paper-plane"></i>
+            {isSubmited && <Popup type={type} />}
+            <button
+              type="submit"
+              disabled={isLoading}
+              className="contact-submit-btn"
+            >
+              {isLoading ? "Sending..." : "Send Message"}{" "}
+              <i className="fa-solid fa-paper-plane"></i>
             </button>
           </form>
         </div>
