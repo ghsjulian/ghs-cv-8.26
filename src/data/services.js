@@ -111,8 +111,7 @@ const servicesData = [
     id: 4,
     title: "VPS Setup, Nginx & DevOps",
     badge: "Deployment",
-    image:
-      "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?auto=format&fit=crop&w=600&q=80",
+    image: "/projects/devops.jpg",
     description:
       "Complete VPS server configuration, Linux shell automation, Nginx reverse proxy configuration, SSL certificates, and CI/CD pipelines.",
     deliveryTime: "1 - 3 Days",

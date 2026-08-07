@@ -212,7 +212,7 @@ const Projects = () => {
 
                     <p className="project-desc">
                       {project.description
-                        ? project.description.slice(0, 145) + "..."
+                        ? project.description.slice(0, 110) + "..."
                         : ""}
                     </p>
 

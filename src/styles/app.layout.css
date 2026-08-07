@@ -189,7 +189,9 @@ nav button {
   cursor: pointer;
   transition: var(--transition);
 }
-
+nav .btn.btn-primary {
+  margin-left: 0.8rem;
+}
 nav .btn.btn-primary:hover {
   background-color: var(--color-primary-dark);
   color: #fff;
