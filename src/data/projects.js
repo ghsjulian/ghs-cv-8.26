@@ -54,17 +54,16 @@ const projectsData = [
 
   {
     id: 2,
-    category: "frontend",
-    title: "Scorpio Canvas Animation Engine",
-    subtitle: "Interactive Anatomical Canvas Rendering",
-    image:
-      "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=700&q=80",
+    category: "Full Stack",
+    title: "Eliteguard Car Care LLC",
+    subtitle: "Interactive Premium Tinting Service",
+    image: "/projects/eliteguard.jpg",
     description:
-      "An advanced JavaScript HTML5 Canvas project featuring segmented anatomical movement, custom math vectors, and smooth, high-FPS physics animations.",
+      "Elite Guard web platform (eliteguardcarcare.com) is optimized for seamless customer interaction, high-converting lead generation, and robust local SEO. It serves as the primary touchpoint for both automotive clients and commercial/residential contractors.",
     duration: "1 Week",
     tools: ["HTML5 Canvas", "JavaScript (ES6+)", "CSS3", "Math Vectors"],
-    liveDemo: "https://example.com/scorpio-anim",
-    github: "https://github.com/ghsjulian/scorpio-canvas",
+    liveDemo: "https://eliteguardcarcare.com",
+    github: "https://github.com/ghsjulian/elite-guard",
     featured: true,
   },
   {

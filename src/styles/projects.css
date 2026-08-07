@@ -14,7 +14,7 @@
 .projects-section {
   background-color: var(--p-bg);
   width: 100%;
-  padding: 4rem 1rem;
+  padding: 3rem 1rem;
 }
 
 .projects-container {
@@ -338,7 +338,39 @@
   color: #ffffff;
   border-color: #0f172a;
 }
-
+.pagination-wrapper {
+  width: 100%;
+  margin: 1rem auto;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  border: 1px solid var(--p-border);
+  /* background: #fff; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+  gap: 1rem;
+}
+.pagination-wrapper button {
+  outline: none;
+  border: none;
+  background: #fff;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-weight: 900;
+  font-size: 16px;
+  cursor: pointer;
+}
+.pagination-numbers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.pagination-numbers button {
+  background: #0281c0;
+  color: #fff;
+}
 /* Responsive Adjustments */
 @media (max-width: 768px) {
   .section-title {

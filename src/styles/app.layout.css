@@ -216,7 +216,7 @@ section {
   position: absolute;
   top: 50px;
   left: 0;
-  padding: 1.5rem 1rem;
+  padding: 2.5rem 1rem;
   width: 100%;
   height: calc(100% - 50px);
   background-color: var(--app-bg);
