@@ -15,8 +15,8 @@
   --app-width: 85vw;
   --app-height: 85vh;
   --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  --font-family:
-    "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  /* --font-family:
+    "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; */
 
   --primary-color: #2563eb; /* Modern royal blue */
   --primary-hover: #1d4ed8;
@@ -27,12 +27,19 @@
   --secondary-bg: #f8fafc; /* Soft gray for secondary button */
   --secondary-border: #e2e8f0;
 }
-
+/* 1. Define the custom font */
+@font-face {
+  font-family: "aptos"; /* Give your font a name */
+  src: url("./aptos-bold.ttf") format("truetype"); /* Path to your .ttf file */
+  font-weight: 600; /* Define weight (e.g., normal, bold, 400, 700) */
+  font-style: normal; /* Define style (normal, italic) */
+  font-display: swap; /* Prevents invisible text while loading */
+}
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: var(--font-family);
+  font-family: "aptos", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
