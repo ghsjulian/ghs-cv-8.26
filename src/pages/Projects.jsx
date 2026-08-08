@@ -127,7 +127,7 @@ const Projects = () => {
             className={`filter-btn ${filter === "mobile" ? "active" : ""}`}
             onClick={() => handleFilterChange("mobile")}
           >
-            Mobile Apps
+            Apps & Softwares
           </button>
           <button
             className={`filter-btn ${filter === "devops" ? "active" : ""}`}

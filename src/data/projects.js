@@ -209,6 +209,62 @@ const projectsData = [
     github: "https://github.com/ghsjulian/vps-automate.git",
     featured: false,
   },
+  {
+    id: 12,
+    category: "Mobile App",
+    title: "Linux System Info Diagonosis App",
+    subtitle: "Linux System Info Diagonosis Application",
+    image: "/projects/linux-system-app.png",
+    description:
+      "System Intelligence is an lightweight cross-platform system monitor desktop application. Built with high-contrast, terminal-inspired aesthetics, it queries system hardware metrics directly from OS APIs and presents live data through an intuitive UI.",
+    duration: "1 Days",
+    tools: ["Node.js", "Electron.js", "HTML", "CSS3", "Linux", "Binary"],
+    liveDemo: "hhttps://github.com/ghsjulian/linux-system-diagonosis.git",
+    github: "https://github.com/ghsjulian/linux-system-diagonosis.git",
+    featured: false,
+  },
+  {
+    id: 13,
+    category: "Frontend",
+    title: "Frontend TODO List App",
+    subtitle: "TODO List Application",
+    image: "/projects/todo_list.jpg",
+    description:
+      "A beautifull responsive and user mobile friendly to do application built by using core html,cs and javascript. It has frontend features like delete, add and edit list.",
+    duration: "1 Days",
+    tools: ["HTML5", "CSS3", "JavaScript(ES6+)"],
+    liveDemo: "https://ghsjulian.github.io/todo-user-app",
+    github: "https://github.com/ghsjulian/todo-user-app.git",
+    featured: false,
+  },
+  {
+    id: 14,
+    category: "Frontend",
+    title: "Frontend Music Player App",
+    subtitle: "Music Player Application",
+    image: "/projects/music-player.png",
+    description:
+      "A beautifull responsive and user mobile friendly music player application built by using core html,cs and javascript. It has frontend features like delete, add and edit list.",
+    duration: "1 Days",
+    tools: ["HTML5", "CSS3", "JavaScript(ES6+)"],
+    liveDemo: "https://ghsjulian.github.io/music-player",
+    github: "https://github.com/ghsjulian/music-player.git",
+    featured: false,
+  },
+  {
+    id: 15,
+    category: "Frontend",
+    title: "Holly Bhagbad Geeta App",
+    subtitle: "Holly Bhagbad Geeta Application",
+    image: "/projects/bhagbad-geeta.png",
+    description:
+      "A beautifull responsive and user mobile friendlyHolly Bhagbad Geeta App built by using core html,cs and javascript. It has frontend features like delete, add and edit list.",
+    duration: "1 Days",
+    tools: ["HTML5", "CSS3", "JavaScript(ES6+)", "Bhagbad Geeta"],
+    liveDemo: "https://ghsjulian.github.io/bhagavad-gita",
+    github: "https://github.com/ghsjulian/bhagavad-gita.git",
+    featured: false,
+  },
 ];
 
 export default projectsData;
