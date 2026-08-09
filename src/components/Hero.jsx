@@ -69,7 +69,16 @@ const Hero = () => {
         </div>
         <div data-aos="zoom-in-up" className="hero-right">
           <div className="hero-image-wrapper">
-            <img loading="lazy" src="/images/ghs.webp" alt="Ghs Julian" />
+            <img
+              src="/images/ghs-820w.webp"
+              srcset="/images/ghs-410w.webp 410w,/images/ghs-820w.webp 820w"
+              sizes="(max-width: 600px) 410px, 410px"
+              width="410"
+              height="410"
+              alt="Ghs Julian"
+              fetchpriority="high"
+              decoding="async"
+            />
           </div>
         </div>
       </div>

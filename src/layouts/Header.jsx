@@ -90,7 +90,11 @@ const Header = () => {
         className={`overlay ${isMenuOpen ? "active" : ""}`}
         onClick={toggleMenu}
       ></div>
-      <button className="menu-toggle" onClick={toggleMenu}>
+      <button
+        aria-label="Toggle navigation menu"
+        className="menu-toggle"
+        onClick={toggleMenu}
+      >
         <IoMdMenu size={24} />
       </button>
     </header>
