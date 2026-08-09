@@ -69,7 +69,7 @@ const Hero = () => {
         </div>
         <div data-aos="zoom-in-up" className="hero-right">
           <div className="hero-image-wrapper">
-            <img loading="lazy" src="/images/ghs.jpg" alt="Ghs Julian" />
+            <img loading="lazy" src="/images/ghs.webp" alt="Ghs Julian" />
           </div>
         </div>
       </div>
