@@ -29,9 +29,10 @@ const Contact = () => {
   return (
     <section>
       <SEO
-        title="Contact"
-        description="Get in touch with Ghs Julian for web development projects, freelance collaborations, or full-stack software development consulting."
-        keywords="Contact Ghs Julian, Hire Full Stack Developer, Freelance MERN Developer, Web Developer Contact"
+        title="Contact & Hire"
+        description="Get in touch with Ghs Julian for custom full stack web development, MERN stack solutions, or freelance contract inquiries. Based in Sylhet, Bangladesh."
+        keywords="Contact Ghs Julian, Hire MERN Stack Developer, Freelance Web Developer Bangladesh, Hire React Developer, Software Engineer Contact Sylhet"
+        path="/contact"
       />
       <div className="contact-container">
         <div data-aos="zoom-in-up" className="contact-header">

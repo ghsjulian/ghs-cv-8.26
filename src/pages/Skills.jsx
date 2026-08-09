@@ -6,9 +6,10 @@ const Skills = () => {
   return (
     <section>
       <SEO
-        title="Skills & Technologies"
-        description="Explore the technical skill set of Ghs Julian, including proficiency in MERN Stack (MongoDB, Express, React, Node.js), PHP, Python, and modern web developer tools."
-        keywords="Ghs Julian Skills, MERN Stack Developer Skills, React.js, Node.js, Express.js, MongoDB, JavaScript, Python, PHP, Full Stack Development"
+        title="Technical Skills & Expertise"
+        description="Discover the core technical skills and stack proficiency of Ghs Julian, including MongoDB, Express.js, React, Node.js, PHP, Python, Linux/Bash scripting, and UI/UX animation."
+        keywords="Ghs Julian Skills, MERN Stack Expertise, React Developer Skills, Node.js Developer, PHP Python Scripting, Web Development Tech Stack"
+        path="/skills"
       />
       <div className="skills-container">
         <div data-aos="zoom-in-up" className="skills-header">

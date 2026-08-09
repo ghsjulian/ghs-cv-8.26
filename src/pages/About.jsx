@@ -9,7 +9,7 @@ const About = () => {
         <SEO
           title="About Me"
           description="Learn more about Ghs Julian, a Full Stack Web Developer proficient in MERN stack, PHP, Python, and modern software development."
-          keywords="About Ghs Julian, Full Stack Developer background, MERN Stack Developer, Software Engineer profile"
+          path="/about"
         />
         <div className="about-container">
           <div className="about-hero-grid">

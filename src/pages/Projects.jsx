@@ -83,9 +83,10 @@ const Projects = () => {
   return (
     <section className="projects-section" id="projects">
       <SEO
-        title="Latest Previous Projects"
-        description="Browse through over 150+ projects built by Ghs Julian."
-        keywords="React projects, MERN portfolio, GitHub projects, Node.js applications"
+        title="Portfolio & Featured Projects"
+        description="Browse through completed full stack web projects, open-source repositories, and interactive applications built by Ghs Julian."
+        keywords="Ghs Julian Projects, MERN Stack Portfolio, React Web Applications, GitHub Repositories Ghs Julian, Web Development Showcase"
+        path="/projects"
       />
       <div className="projects-container">
         {/* Header */}

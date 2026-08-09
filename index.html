@@ -19,6 +19,8 @@
   <meta name="revisit-after" content="7 days" />
   <meta name="rating" content="general" />
   <meta name="format-detection" content="telephone=no" />
+
+  <!-- Search Console Verification -->
   <meta name="google-site-verification" content="RW7DHLv-NMMjWXYB1UaCByTryY_CZ_Dh2yDf4OZVuE0" />
   <meta name="msvalidate.01" content="0D080675D8AB64C68B02DE83F5ED74A1" />
 
@@ -27,10 +29,8 @@
   <meta name="geo.placename" content="Kamalganj, Moulvibazar, Sylhet, Bangladesh" />
   <meta name="ICBM" content="24.3167, 91.7833" />
 
-  <!-- Google Search Console verification (paste your code here) -->
-
   <!-- ============ Open Graph / Facebook / LinkedIn ============ -->
-  <meta property="og:type" content="profile" />
+  <meta property="og:type" content="website" />
   <meta property="og:url" content="https://ghsresume.netlify.app/" />
   <meta property="og:site_name" content="Ghs Julian Portfolio" />
   <meta property="og:locale" content="en_US" />
@@ -41,8 +41,6 @@
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:image:alt" content="Ghs Julian - Full Stack & MERN Stack Web Developer" />
-  <meta property="profile:first_name" content="Ghs" />
-  <meta property="profile:last_name" content="Julian" />
 
   <!-- ============ Twitter Card ============ -->
   <meta name="twitter:card" content="summary_large_image" />
@@ -52,8 +50,6 @@
     content="Professional Full Stack & MERN Stack Web Developer with 150+ projects. Specializing in modern React applications, Node.js backends, and robust web systems." />
   <meta name="twitter:image" content="https://ghsresume.netlify.app/og-image.jpg" />
   <meta name="twitter:image:alt" content="Ghs Julian - Full Stack & MERN Stack Web Developer" />
-  <!-- <meta name="twitter:site" content="@yourhandle" /> -->
-  <!-- <meta name="twitter:creator" content="@yourhandle" /> -->
 
   <!-- ============ Favicons ============ -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
@@ -88,7 +84,9 @@
   <!-- Theme -->
   <meta name="theme-color" content="#0d1117" />
   <link rel="manifest" href="/manifest.json" />
-  <link rel="canonical" href="https://ghsresume.netlify.app/" />
+
+  <!-- Dynamic Canonical Link Handle -->
+  <link id="canonical-url" rel="canonical" href="https://ghsresume.netlify.app/" />
 
   <!-- ============ Fonts ============ -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -103,7 +101,7 @@
         "@type": "Person",
         "@id": "https://ghsresume.netlify.app/#person",
         "name": "Ghs Julian",
-        "alternateName": "",
+        "alternateName": "Gobindo Bhor",
         "url": "https://ghsresume.netlify.app/",
         "image": "https://ghsresume.netlify.app/og-image.jpg",
         "jobTitle": "Full Stack & MERN Stack Web Developer",
@@ -150,7 +148,6 @@
     </script>
 
   <!-- ============ Structured Data (JSON-LD): FAQPage ============ -->
-  <!-- This is what helps you rank for "Who is Ghs Julian" style queries -->
   <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -191,14 +188,13 @@
         ]
       }
     </script>
-  <!--====================GOOGLE ANALYTICS======================-->
-  <!-- Google tag (gtag.js) -->
+
+  <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-5WRCKBCRTK"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', 'G-5WRCKBCRTK');
   </script>
 </head>
@@ -206,16 +202,28 @@
 <body>
   <div id="root"></div>
 
-  <!-- Fallback content for crawlers/browsers that don't execute JS -->
+  <!-- Extended HTML Fallback for Crawlers before JS Hydrates -->
   <noscript>
-    <main>
+    <header>
       <h1>Ghs Julian — Full Stack & MERN Stack Web Developer</h1>
-      <p>
-        Based in Kamalganj, Moulvibazar, Sylhet, Bangladesh. Specializing in React, Node.js,
-        Express, MongoDB and PHP, with 150+ projects delivered. Available for freelance web
-        development work.
-      </p>
-      <p>Please enable JavaScript to view the full interactive portfolio.</p>
+      <p>Kamalganj, Moulvibazar, Sylhet, Bangladesh</p>
+    </header>
+    <main>
+      <section>
+        <h2>About Me</h2>
+        <p>
+          I am a Full Stack & MERN Stack Web Developer with over 150+ completed projects.
+          Specializing in React, Node.js, Express, MongoDB, PHP, and Python.
+        </p>
+      </section>
+      <section>
+        <h2>Services & Skills</h2>
+        <ul>
+          <li>MERN Stack Application Development</li>
+          <li>REST API Architecture & Database Design</li>
+          <li>Responsive UI/UX & React Frontend Solutions</li>
+        </ul>
+      </section>
     </main>
   </noscript>
 

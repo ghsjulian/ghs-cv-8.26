@@ -31,7 +31,7 @@
 @font-face {
   font-family: "aptos"; /* Give your font a name */
   src: url("./aptos-bold.ttf") format("truetype"); /* Path to your .ttf file */
-  font-weight: 600; /* Define weight (e.g., normal, bold, 400, 700) */
+  font-weight: 700; /* Define weight (e.g., normal, bold, 400, 700) */
   font-style: normal; /* Define style (normal, italic) */
   font-display: swap; /* Prevents invisible text while loading */
 }
@@ -50,7 +50,7 @@ body {
   height: var(--app-height);
   background-color: var(--main-bg);
   font-family: "Poppins", sans-serif;
-  font-size: 95%;
+  font-size: 99%;
   font-weight: 600;
 }
 
@@ -514,7 +514,7 @@ section {
 /*--------------->> Mobile Responsive Design <<--------------*/
 @media (max-width: 768px) {
   html {
-    font-size: 85%;
+    font-size: 95%;
   }
   .app-layout {
     width: 100vw;

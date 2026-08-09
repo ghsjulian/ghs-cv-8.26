@@ -7,9 +7,10 @@ const Services = () => {
   return (
     <section className="services-section">
       <SEO
-        title="Premium Services"
-        description="Explore web development and design services by Ghs Julian, including full-stack MERN web apps, API integration, and custom frontend UIs."
-        keywords="Web Development Services, MERN Stack Development, React Frontend, Node.js Backend API, Full Stack Solutions"
+        title="Web Development Services"
+        description="Explore custom web development services offered by Ghs Julian, including MERN stack applications, RESTful API design, database architecture, and responsive UI engineering."
+        keywords="MERN Stack Services, Web Development Services Bangladesh, Full Stack Development, React App Development, REST API Design, Node.js Backend Solutions"
+        path="/services"
       />
       <div className="services-container">
         {/* Section Header */}
