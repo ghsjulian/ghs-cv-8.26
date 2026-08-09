@@ -1,5 +1,19 @@
 const projectsData = [
   {
+    id: 16,
+    category: "Frontend",
+    title: "Responsive Hair Cutting Website",
+    subtitle: "Full Responsive Hair Cutting Website",
+    image: "/projects/hair-cutting.jpg",
+    description:
+      "A professional web application designed to streamline appointment booking and management for a hair salon or barber shop. Built using the MERN stack for optimal performance and scalability.",
+    duration: "1 Days",
+    tools: ["HTML5", "CSS3", "JavaScript(ES6+)"],
+    liveDemo: "https://ghsjulian.github.io/hair-cutting/",
+    github: "https://github.com/ghsjulian/hair-cutting.git",
+    featured: false,
+  },
+  {
     id: 0,
     category: "fullstack",
     title: "Allbizz Music Studio",
