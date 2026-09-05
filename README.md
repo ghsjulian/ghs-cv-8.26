@@ -1,7 +1,28 @@
 # 🚀 Ghs Julian - Developer Portfolio & Showcase
 
-<img loading="lazy" src="./demo-1.png" alt="Ghs Julian Portfolio Banner" /><br/><br/>
-<img loading="lazy" src="./demo-2.png" alt="Ghs Julian Portfolio Banner" />
+[![GitHub top language](https://img.shields.io/github/languages/top/ghsjulian/ghs-cv-8.26)](https://github.com/ghsjulian)
+[![GitHub repo size](https://img.shields.io/github/repo-size/ghsjulian/ghs-cv-8.26)](https://github.com/ghsjulian)
+
+[![GitHub code size](https://img.shields.io/github/languages/code-size/ghsjulian/ghs-cv-8.26)](https://github.com/ghsjulian)
+[![GitHub last commit](https://img.shields.io/github/last-commit/ghsjulian/ghs-cv-8.26)](https://github.com/ghsjulian)
+[![GitHub issues](https://img.shields.io/github/issues/ghsjulian/ghs-cv-8.26)](https://github.com/ghsjulian)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat-square&logo=node.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat-square&logo=typescript&logoColor=white)
+![Express.js](https://img.shields.io/badge/express.js-%23404D59.svg?style=flat-square&logo=express&logoColor=white)
+![Cloudinary](https://img.shields.io/badge/cloudinary-%23404D59.svg?style=flat-square&logo=express&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23404D59.svg?style=flat-square&logo=express&logoColor=white)
+![HTML](https://img.shields.io/badge/html-%23404D59.svg?style=flat-square&logo=html&logoColor=white)
+
+---
+
+### 📸 Interface Screenshots
+
+|                       Main Dashboard                       |               Generated Results & Analytics                |
+| :--------------------------------------------------------: | :--------------------------------------------------------: |
+| <img src="./docs/demo-1.png" alt="Dashboard" width="500"/> | <img src="./docs/demo-2.png" alt="Dashboard" width="500"/> |
+| <img src="./docs/demo-3.png" alt="Dashboard" width="500"/> | <img src="./docs/demo-4.png" alt="Dashboard" width="500"/> |
 
 ---
 
@@ -12,22 +33,6 @@
 Built with performance, SEO, and responsiveness at its core, this application provides an interactive experience for potential clients, employers, and collaborators to explore my professional capabilities, technical stack, and overall engineering workflow.
 
 Built using modern web standards, modular UI architecture, and production-ready code practices tailored for commercial and freelance environments.
-
----
-
-### ℹ️ Repository Information
-
-[![GitHub top language](https://img.shields.io/github/languages/top/ghsjulian/ghs-cv-8.26)](https://github.com/ghsjulian)
-
-[![GitHub repo size](https://img.shields.io/github/repo-size/ghsjulian/ghs-cv-8.26)](https://github.com/ghsjulian)
-
-[![GitHub code size](https://img.shields.io/github/languages/code-size/ghsjulian/ghs-cv-8.26)](https://github.com/ghsjulian)
-
-[![GitHub last commit](https://img.shields.io/github/last-commit/ghsjulian/ghs-cv-8.26)](https://github.com/ghsjulian)
-
-[![GitHub issues](https://img.shields.io/github/issues/ghsjulian/ghs-cv-8.26)](https://github.com/ghsjulian)
-
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ---
 
