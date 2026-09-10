@@ -4,6 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Header from "./Header";
 import Heart from "../components/Heart";
+import TrackVisitor from "../components/TrackVisitor";
 
 const AppLayout = () => {
   const location = useLocation();
@@ -50,6 +51,20 @@ const AppLayout = () => {
       <Heart />
       <Header />
       <Outlet />
+      <TrackVisitor />
+      {/* SETUP AUTO USER DATA CAPTURE */}
+      <form
+        name="portfolio-tracker"
+        data-netlify="true"
+        netlify-honeypot="bot-field"
+        hidden
+      >
+        <input type="text" name="location" />
+        <input type="text" name="ip" />
+        <input type="text" name="referrer" />
+        <input type="text" name="screen" />
+        <input type="text" name="time" />
+      </form>
     </main>
   );
 };

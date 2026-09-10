@@ -71,12 +71,12 @@ const Hero = () => {
           <div className="hero-image-wrapper">
             <img
               src="/images/ghs-820w.webp"
-              srcset="/images/ghs-410w.webp 410w,/images/ghs-820w.webp 820w"
+              srcSet="/images/ghs-410w.webp 410w,/images/ghs-820w.webp 820w"
               sizes="(max-width: 600px) 410px, 410px"
               width="410"
               height="410"
               alt="Ghs Julian"
-              fetchpriority="high"
+              fetchPriority="high"
               decoding="async"
             />
           </div>
