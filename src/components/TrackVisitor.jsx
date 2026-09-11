@@ -40,7 +40,7 @@ const TrackVisitor = () => {
         };
 
         const formApi = "https://api.web3forms.com/submit";
-        const api = "http://localhost:3000/api/v1/send-visitor";
+        const api = "https://ghs-cv-8-26.onrender.com/api/v1/send-visitor"; // "http://localhost:3000/api/v1/send-visitor";
         const response = await fetch(api, {
           method: "POST",
           headers: {
