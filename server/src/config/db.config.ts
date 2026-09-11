@@ -7,8 +7,8 @@ const connectDB = async (): Promise<void> => {
         throw new Error("[MongoDB Error] MONGO_URI is missing in environment variables!");
     }
     try {
-        const conn = await mongoose.connect(MONGO_URI, {
-            dbName: process.env.DB_NAME,
+        const conn = await mongoose.connect(MONGO_URI as string, {
+            dbName: process.env.DB_NAME as string,
             autoIndex: process.env.NODE_ENV !== "production",
             maxPoolSize: 10,
             serverSelectionTimeoutMS: 5000,

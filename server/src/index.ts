@@ -14,8 +14,8 @@ const PORT = process.env.PORT || 3000;
 
 
 const corsOptions: cors.CorsOptions = {
-    origin: (origin, callback) => {
-        if (!origin || process.env.CORS_ORIGIN) {
+    origin: (oriorigin: string | undefined, callback) => {
+        if (!origin || process.env.CORS_ORIGIN as string) {
             callback(null, true);
         } else {
             callback(new Error('Not allowed by CORS'));
