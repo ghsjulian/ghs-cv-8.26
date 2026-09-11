@@ -26,9 +26,9 @@ const TrackVisitor = () => {
         }
 
         const payload = {
-          access_key: "7bbfa1fb-5d6a-4077-9250-9e53c694215a",
-          subject: "🚀 New Visitor on ghsresume.netlify.app!",
-          from_name: "Visitor Tracker",
+          // access_key: "7bbfa1fb-5d6a-4077-9250-9e53c694215a",
+          // subject: "🚀 New Visitor on ghsresume.netlify.app!",
+          // from_name: "Visitor Tracker",
           location: `${ipData.city || "Unknown"}, ${ipData.country || "Unknown"}`,
           ip_address: ipData.ip || "Unknown",
           isp_org: ipData.connection?.isp || "Unknown ISP",
@@ -39,7 +39,9 @@ const TrackVisitor = () => {
           developer: "Ghs Julian",
         };
 
-        const response = await fetch("https://api.web3forms.com/submit", {
+        const formApi = "https://api.web3forms.com/submit";
+        const api = "http://localhost:3000/api/v1/send-visitor";
+        const response = await fetch(api, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -48,9 +50,13 @@ const TrackVisitor = () => {
           body: JSON.stringify(payload),
         });
 
+        const responseData = await response.json();
+        // console.log(responseData);
+
         if (response.ok) {
           // Save current timestamp to localStorage
           localStorage.setItem(LAST_SENT_KEY, now.toString());
+          localStorage.setItem("total-visitor", responseData?.data?.total);
         }
       } catch (error) {
         console.error("Tracker error:", error);

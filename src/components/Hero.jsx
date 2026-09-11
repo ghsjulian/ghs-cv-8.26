@@ -3,9 +3,11 @@ import { NavLink, useNavigate } from "react-router-dom";
 import { ReactTyped } from "react-typed";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { LuDownload } from "react-icons/lu";
+import { LiaUsersCogSolid } from "react-icons/lia";
 
 const Hero = () => {
   const navigate = useNavigate();
+  const totalVisitor = parseInt(localStorage.getItem("total-visitor")) || 0;
 
   const downloadCV = () => {
     const pdfUrl = "/ghs-cv.pdf";
@@ -22,6 +24,19 @@ const Hero = () => {
       <div className="hero-container">
         <div className="hero-left">
           <span data-aos="zoom-in-up" className="badge">
+            <LiaUsersCogSolid size={22} />
+            Total Visitors :{" "}
+            <strong
+              style={{
+                color: "#ff29c6",
+                fontWeight: 900,
+              }}
+            >
+              {1743 + totalVisitor}
+            </strong>
+          </span>
+          <br />
+          <span data-aos="zoom-in-up" className="badge">
             <span className="badge-icon"></span>
             Available for new opportunities
           </span>
@@ -29,11 +44,9 @@ const Hero = () => {
             <span>I'm A </span>
             <ReactTyped
               strings={[
+                "Full Stack Developer",
                 "MERN Stack Developer",
                 "Freelacer & Programmer",
-                "Full Stack Developer",
-                "Developer - Designer",
-                "Website Developer",
                 "Front-End Developer",
                 "Back-End Developer",
                 "PHP Developer",
