@@ -2,7 +2,7 @@ import dotenv from "dotenv"
 import cors from "cors"
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import express, { NextFunction, Request, Response } from 'express';
+import express, { Request, Response } from 'express';
 import connectDB from "./config/db.config.js";
 import router from "./routes/visitor.routes.js";
 
@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 3000;
 
 
 const corsOptions: cors.CorsOptions = {
-    origin: (oriorigin: string | undefined, callback) => {
+    origin: (origin: string | undefined, callback) => {
         if (!origin || process.env.CORS_ORIGIN as string) {
             callback(null, true);
         } else {
@@ -32,10 +32,10 @@ app.use(express.urlencoded({ extended: true, limit: "10mb" }));
 app.use("/static", express.static(path.join(__dirname, "../public")));
 
 
-app.get("/health", (req: Request, res: Response) => {
+app.get("/health", (_: Request, res: Response) => {
     res.status(200).json({ status: "OK", uptime: process.uptime() });
 });
-app.get('/', (req: Request, res: Response) => {
+app.get('/', (_: Request, res: Response) => {
     res.sendFile(path.join(__dirname, "../public/visitors.json"))
 });
 
@@ -43,12 +43,12 @@ app.get('/', (req: Request, res: Response) => {
 app.use("/api/v1", router)
 
 // 404 Handler
-app.use((req: Request, res: Response) => {
+app.use((_: Request, res: Response) => {
     res.status(404).json({ success: false, message: "Route not found" });
 });
 
 // Global Error Handler
-app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
+app.use((err: Error, _: Request, res: Response) => {
     console.error("Unhandled Error:", err.stack);
     res.status(500).json({
         success: false,
