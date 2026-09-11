@@ -1,8 +1,11 @@
 import { Request, Response } from 'express';
 import fs from 'fs/promises';
 import path from "node:path";
-import Visitor from '../models/visitors.model';
+import { fileURLToPath } from "node:url";
+import Visitor from '../models/visitors.model.js';
 
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const createVisitor = async (req: Request, res: Response): Promise<Response> => {
     try {
