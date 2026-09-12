@@ -60,13 +60,11 @@ const Hero = () => {
           </h1>
           <p data-aos="zoom-in-up" className="hero-desc">
             Full-Stack Web Developer based in Sylhet, Bangladesh, specializing
-            in scalable web applications, real-time engines, and e-commerce
-            platforms using the MERN stack, PHP, and Python. With{" "}
-            <span style={{ color: "#ff11bf", fontWeight: 900 }}>150+ </span>
-            open-source projects on{" "}
-            <span style={{ color: "#019020", fontWeight: 900 }}>Github </span>,
-            I transform complex technical requirements into high-performance,
-            secure digital products.
+            in scalable web applications, real-time systems, and e-commerce
+            platforms built with the MERN stack, PHP, and Python. With 150+
+            open-source projects on GitHub, I turn complex technical
+            requirements into high-performance, secure, and production-ready
+            digital products — from architecture and API design to deployment.
           </p>
           <div data-aos="zoom-in-up" className="cta-group">
             <button
