@@ -4,7 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Header from "./Header";
 import Heart from "../components/Heart";
-import TrackVisitor from "../components/TrackVisitor";
+// import TrackVisitor from "../components/TrackVisitor";
 
 const AppLayout = () => {
   const location = useLocation();
@@ -51,7 +51,6 @@ const AppLayout = () => {
       <Heart />
       <Header />
       <Outlet />
-      <TrackVisitor />
       {/* SETUP AUTO USER DATA CAPTURE */}
       <form
         name="portfolio-tracker"

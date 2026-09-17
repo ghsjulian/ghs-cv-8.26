@@ -78,7 +78,7 @@ const Header = () => {
           to="/projects"
         >
           Projects
-          <span className="budget">{projectsData?.length}</span>
+          {/* <span className="budget">{projectsData?.length}</span> */}
         </Link>
         <Link
           to="https://wa.me/8801302661227?text=Hi%20there,%20I%20reviewed%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20custom%20web%20development%20project.%20Are%20you%20currently%20available%20for%20freelance%20work%3F"

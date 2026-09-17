@@ -1,16 +1,14 @@
-import React from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import { ReactTyped } from "react-typed";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { LuDownload } from "react-icons/lu";
-import { LiaUsersCogSolid } from "react-icons/lia";
 
 const Hero = () => {
   const navigate = useNavigate();
-  const totalVisitor = parseInt(localStorage.getItem("total-visitor")) || 0;
+  //const totalVisitor = parseInt(localStorage.getItem("total-visitor")) || 0;
 
   const downloadCV = () => {
-    const pdfUrl = "/ghs-cv.pdf";
+    const pdfUrl = "/ghs-cv-26.09.17.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
     link.setAttribute("download", "ghs-julian-cv.pdf");
@@ -23,7 +21,7 @@ const Hero = () => {
     <>
       <div className="hero-container">
         <div className="hero-left">
-          <span data-aos="zoom-in-up" className="badge">
+          {/* <span data-aos="zoom-in-up" className="badge">
             <LiaUsersCogSolid size={22} />
             Total Visitors :{" "}
             <strong
@@ -35,7 +33,7 @@ const Hero = () => {
               {1743 + totalVisitor}
             </strong>
           </span>
-          <br />
+          <br /> */}
           <span data-aos="zoom-in-up" className="badge">
             <span className="badge-icon"></span>
             Available for new opportunities

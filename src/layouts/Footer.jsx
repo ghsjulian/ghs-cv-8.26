@@ -57,7 +57,7 @@ const Footer = () => {
         </NavLink>
         <NavLink
           aria-label="Twitter Profile"
-          to="https://twitter.com/@ghsjulian"
+          to="https://x.com/_ghsjulian"
           target="_blank"
         >
           <BsTwitterX />
