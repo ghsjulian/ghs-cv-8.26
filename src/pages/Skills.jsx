@@ -374,6 +374,29 @@ const Skills = () => {
             <span className="lang-badge">Backend</span>
           </div>
 
+          {/* React */}
+          <div className="lang-card" data-aos="zoom-in-up">
+            <div className="logo-box">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                alt="React"
+              />
+            </div>
+            <span className="lang-name">React</span>
+            <span className="lang-badge">Advanced</span>
+          </div>
+          {/* Typescript */}
+          <div className="lang-card" data-aos="zoom-in-up">
+            <div className="logo-box">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                alt="TypeScript"
+              />
+            </div>
+            <span className="lang-name">TypeScript</span>
+            <span className="lang-badge">Advanced</span>
+          </div>
+
           {/* PHP */}
           <div className="lang-card" data-aos="zoom-in-up">
             <div className="logo-box">
@@ -613,18 +636,6 @@ const Skills = () => {
             <span className="lang-badge">Problem Solving</span>
           </div>
 
-          {/* UI / UX Design */}
-          <div className="lang-card" data-aos="zoom-in-up">
-            <div className="logo-box">
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
-                alt="UI/UX Design"
-              />
-            </div>
-            <span className="lang-name">UI / UX Design</span>
-            <span className="lang-badge">Figma & Wireframing</span>
-          </div>
-
           {/* Cyber Security */}
           <div className="lang-card" data-aos="zoom-in-up">
             <div className="logo-box">
@@ -649,29 +660,6 @@ const Skills = () => {
             <span className="lang-badge">System Design</span>
           </div>
 
-          {/* RESTful API Design */}
-          <div className="lang-card" data-aos="zoom-in-up">
-            <div className="logo-box">
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg"
-                alt="API Design"
-              />
-            </div>
-            <span className="lang-name">API Design</span>
-            <span className="lang-badge">REST & API</span>
-          </div>
-
-          {/* DevOps & CI/CD */}
-          <div className="lang-card" data-aos="zoom-in-up">
-            <div className="logo-box">
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
-                alt="DevOps"
-              />
-            </div>
-            <span className="lang-name">DevOps</span>
-            <span className="lang-badge">CI / CD Pipelines</span>
-          </div>
           {/* Redux */}
           <div className="lang-card" data-aos="zoom-in-up">
             <div className="logo-box">
