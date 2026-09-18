@@ -8,10 +8,10 @@ const Hero = () => {
   //const totalVisitor = parseInt(localStorage.getItem("total-visitor")) || 0;
 
   const downloadCV = () => {
-    const pdfUrl = "/ghs-cv-26.09.17.pdf";
+    const pdfUrl = "/ghs-cv-26.09.18.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
-    link.setAttribute("download", "ghs-julian-cv.pdf");
+    link.setAttribute("download", "ghs-cv-26.09.18.pdf");
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
