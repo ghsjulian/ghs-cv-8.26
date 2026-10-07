@@ -1,5 +1,28 @@
 const projectsData = [
   {
+    id: 20,
+    category: "Full Stack",
+    title: "Rag AI A Full Stack Chatbot",
+    subtitle:
+      "The RAG AI App is a full-stack Retrieval-Augmented Generation (RAG) platform powered by Google Gemini and real-time Socket.io streaming.",
+    image: "/projects/rag-ai.png",
+    description:
+      "The RAG AI App is a full-stack Retrieval-Augmented Generation (RAG) platform powered by Google Gemini and real-time Socket.io streaming. Built with React, Vite, TypeScript, Express, Node.js, and MongoDB, it enables users to upload document context, process high-accuracy contextual retrieval, and converse with an AI assistant over dynamic, real-time channels across fully responsive device screens.",
+    duration: "3 Days",
+    tools: [
+      "HTML5",
+      "CSS3",
+      "JavaScript(ES6+)",
+      "Node.js",
+      "Gemini AI",
+      "Express",
+      "Typescript",
+    ],
+    liveDemo: "https://your-rag-app-demo.onrender.com",
+    github: "https://github.com/ghsjulian/rag-ai",
+    featured: false,
+  },
+  {
     id: 19,
     category: "Full Stack",
     title: "Post Carft AI Content Creator",

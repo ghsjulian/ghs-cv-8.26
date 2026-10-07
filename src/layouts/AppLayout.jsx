@@ -48,7 +48,7 @@ const AppLayout = () => {
 
   return (
     <main className="app-layout" ref={layoutRef}>
-      <Heart />
+      {/* <Heart /> */}
       <Header />
       <Outlet />
       {/* SETUP AUTO USER DATA CAPTURE */}
